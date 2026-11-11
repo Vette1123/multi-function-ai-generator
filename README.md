@@ -1,6 +1,6 @@
 # 🤖 multi-function-ai-generator (sadge-ai)
 
-> Five AI tools — chat, code, image, music, video — behind one dashboard, with auth, usage limits, and a Pro plan.
+> Five AI tools (chat, code, image, music, video) behind one dashboard, with auth, usage limits, and a Pro plan.
 
 ![Next.js](https://img.shields.io/badge/Next.js-13-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
@@ -11,20 +11,20 @@
 
 ### 🚀 [Try it live →](https://sadge-ai.vercel.app)
 
-A SaaS-style playground that wires together OpenAI and Replicate behind a single dashboard. Free users get a metered quota tracked in MySQL via Prisma; Stripe handles the Pro upgrade and webhook lifecycle. Built to explore how far one Next.js 13 app can stretch across multiple AI modalities.
+A SaaS-style playground that puts OpenAI and Replicate behind a single dashboard. Free users get a metered quota tracked in MySQL via Prisma; Stripe handles the Pro upgrade and webhook lifecycle. Built to explore how far one Next.js 13 app can stretch across multiple AI modalities.
 
 ## ✨ Features
 
-- **Conversation** — streaming chat backed by OpenAI via LangChain.
-- **Code generation** — markdown-rendered code answers with syntax-aware output.
-- **Image generation** — text-to-image through Replicate, with resolution and count controls.
-- **Music generation** — text-to-audio via a Replicate music model.
-- **Video generation** — text-to-video via a Replicate video model.
-- **Auth & accounts** — Clerk-powered sign-in / sign-up with route protection.
-- **Usage limits & Pro plan** — free-tier counter stored in Prisma + MySQL; unlimited access through a Stripe-managed subscription.
-- **Stripe webhooks** — subscription state synced back to the database.
-- **Live support widget** — Crisp chat embedded in the dashboard.
-- **Polished UI** — shadcn/ui + Radix primitives, dark mode via `next-themes`, toasts via Sonner.
+- **Conversation**: streaming chat backed by OpenAI via LangChain.
+- **Code generation**: markdown-rendered code answers with syntax-aware output.
+- **Image generation**: text-to-image through Replicate, with resolution and count controls.
+- **Music generation**: text-to-audio via a Replicate music model.
+- **Video generation**: text-to-video via a Replicate video model.
+- **Auth & accounts**: Clerk sign-in / sign-up with route protection.
+- **Usage limits & Pro plan**: free-tier counter stored in Prisma + MySQL; unlimited access through a Stripe-managed subscription.
+- **Stripe webhooks**: subscription state synced back to the database.
+- **Live support widget**: Crisp chat embedded in the dashboard.
+- **UI**: shadcn/ui + Radix primitives, dark mode via `next-themes`, toasts via Sonner.
 
 ## 🛠️ Tech Stack
 
